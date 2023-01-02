@@ -6,6 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiment web page </title>
+    <style>
+        .item1 {
+            border: 2px solid red;
+            height: 100px;
+            width: 300px;
+        }
+
+        .item2 {
+            border: 2px solid red;
+            height: 100px;
+            width: 300px;
+            padding: 30px;
+        }
+
+        .item3 {
+            border: 2px solid green;
+            height: 100px;
+            width: 300px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,7 +38,27 @@
     <h3>Main page is end</h3>
     <br><br>
     <h1>Branch image-added is start here</h1>
-    <img src="./images/header.png" alt="">
+    <img src="./images/header.png" alt="" height:200px; width="300px">
+    <br><br><br>
+    <label for="">(box-sizing:border-box):If you set an element's width to 100 pixels, that 100 pixels will include any
+        border or padding you added, and the
+        content box will shrink to absorb that extra width.</label>
+    <h2> border box</h2>
+    <div class="item1">
+        This is item 1
+    </div>
+    <br>
+    <div class="item2">
+        This is item 2 with padding
+    </div>
+    <br>
+    <div class="item3">
+        This is item 3 with padding but it's width is 300px because we used border-box;
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aperiam blanditiis. Sed, excepturi et voluptatibus
+        incidunt ducimus ab ipsum voluptatum id? Dolore voluptate repellat deserunt, deleniti qui veritatis velit iusto
+        voluptas voluptatum sint natus consequatur odit corrupti beatae dolores! Ab reprehenderit odio voluptatum enim
+        vero distinctio facilis. Necessitatibus, perferendis atque?</p>
 
 </body>
 
